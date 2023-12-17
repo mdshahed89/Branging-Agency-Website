@@ -855,6 +855,7 @@ body {
             .fPart{
                 flex-direction: column;
                 .logo{
+                    max-height: 15rem; 
                     &:nth-child(1), &:nth-child(2), &:nth-child(3), &:nth-child(4){
                         border-right: none;
                         border-bottom: 1px solid #fff;
@@ -869,9 +870,13 @@ body {
                 border-top: none;
                 border-left: 1px solid #fff;
                 .logo{
+                    max-height: 15rem;
                     &:nth-child(1), &:nth-child(2), &:nth-child(3), &:nth-child(4){
                         border-right: none;
                         border-bottom: 1px solid #fff;
+                    }
+                    & img{
+                        max-width: 25rem;
                     }
                 }
             }
